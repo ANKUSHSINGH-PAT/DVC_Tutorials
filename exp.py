@@ -4,7 +4,8 @@ import pandas as pd
 data = {
     'Name': ['Ankush', 'Gopi', 'Mansi', 'Priya'],
     'Experience': [3, 5, 2, 4],
-    'PerformanceScore': [87, 90, 70, 85]
+    'PerformanceScore': [87, 90, 70, 90],
+    'Department': ['Engineering', 'Engineering', 'HR', 'Marketing'],
 }
 
 df = pd.DataFrame(data)
